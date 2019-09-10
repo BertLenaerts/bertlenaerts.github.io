@@ -9,7 +9,7 @@ name: Bert Lenaerts
 description: Development economist and data analyst working on sustainable development
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: ![Image description](/images/Close-up_Bert Lenaerts.jpg)
+avatar: ![]({{ site.baseurl }}/images/Close-up_Bert Lenaerts.jpg)
 
 #
 # Flags below are optional
