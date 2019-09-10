@@ -25,7 +25,8 @@ footer-links:
   instagram:
   linkedin: www.linkedin.com/in/bertlenaerts
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: https://scholar.google.be/citations?user=RP4y7_8AAAAJ&hl=nl
+  # just type anything here for a working RSS icon
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
