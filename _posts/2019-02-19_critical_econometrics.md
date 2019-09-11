@@ -14,7 +14,7 @@ Yet, there is still much to say in favour of formalism. Mathematical methods can
 Thirdly, economic models are always simplifications of reality. While this is surely problematic for policy makers working on real-life problems, it can hardly be avoided. Capturing the complex behaviour of the real economy would warrant the use of extensive models consisting of numerous equations (such as computable general equilibrium models)—eventually only to become unwieldy or as inconsistent and chaotic as reality itself (12). To quote Dani Rodrik: “Models are never true; but there is truth in models. We can understand the world only by simplifying it.” (13)  
 
 ![Figure 1. Trade-offs in economic-econometric modelling](/images/Critical_econometrics.png)
-Figure 1. Trade-offs in economic-econometric modelling
+**Figure 1** Trade-offs in economic-econometric modelling
 
 The previous paragraphs have hopefully shown that all hope for quantitative economics is not lost. While misapplication of formal methods in economics is a problem, those methods do have their value—when applied properly—and should not be discarded altogether. The question that remains, though, is how to proceed. To end, therefore, I want to offer some suggestions that might avoid quantitative economics from turning into a purely academic discipline. 
 
