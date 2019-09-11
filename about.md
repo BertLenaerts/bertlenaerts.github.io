@@ -14,4 +14,4 @@ My name is Bert and I am a Ph.D. student within the Environmental Economics rese
 
 ### Contact me
 
-[bert.lenaerts@uhasselt.be](mailto:bert.lenaerts(at)uhasselt.be)
+[bert.lenaerts(at)uhasselt.be](mailto:bert.lenaerts(at)uhasselt.be)
