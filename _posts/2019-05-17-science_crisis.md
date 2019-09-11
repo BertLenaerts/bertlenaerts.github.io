@@ -32,14 +32,14 @@ Lastly, it is important to create a sense of trust in the scientific institution
 
 **References**
 
-[1]	WHO, Measles in Europe: record number of both sick and immunized, (2019). http://www.euro.who.int/en/media-centre/sections/press-releases/2019/measles-in-europe-record-number-of-both-sick-and-immunized (accessed May 13, 2019).
-[2]	European Commission, State of Vaccine Confidence in the EU, Publications Ofce of the European Union, 2018. https://ec.europa.eu/health/sites/health/files/vaccination/docs/2018_vaccine_confidence_en.pdf (accessed May 13, 2019).
-[3]	ECHA, Glyphosate not classified as a carcinogen by ECHA, (2017). https://echa.europa.eu/-/glyphosate-not-classified-as-a-carcinogen-by-echa (accessed May 9, 2019).
-[4]	EFSA, Conclusion on the peer review of the pesticide risk assessment of the active substance glyphosate, EFSA Journal. 13 (2015). https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2015.4302 (accessed May 9, 2019).
-[5]	JMPR, Results of joint FAO/WHO Meeting on Pesticide Residues (JMPR), (2016). http://www.euro.who.int/en/health-topics/disease-prevention/food-safety/news/news/2016/05/results-of-joint-faowho-meeting-on-pesticide-residues-jmpr (accessed May 9, 2019).
-[6]	US EPA, EPA Releases Draft Risk Assessments for Glyphosate, (2017). https://www.epa.gov/pesticides/epa-releases-draft-risk-assessments-glyphosate (accessed May 9, 2019).
-[7]	K.M. Douglas, R.M. Sutton, A. Cichocka, The psychology of conspiracy theories, Current Directions in Psychological Science. 26 (2017) 538–542.
-[8]	D.J. Clark, Behind the Curve, Delta-v Productions, 2018.
-[9]	N. Oreskes, E.M. Conway, Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming, Bloomsbury Publishing, 2011. https://books.google.be/books?id=CrtoNFTuPwwC.
-[10]	World Health Organization, WHO report on the global tobacco epidemic, 2017: monitoring tobacco use and prevention policies, World Health Organization, Geneva, 2017.
-[11]	R. Srivastava, My patient swapped chemotherapy for essential oils. Arguing is a fool’s errand, The Guardian. (2019). https://www.theguardian.com/commentisfree/2019/feb/14/my-patient-swapped-chemotherapy-for-essential-oils-arguing-is-a-fools-errand (accessed May 9, 2019).
+[1]	WHO, Measles in Europe: record number of both sick and immunized, (2019). http://www.euro.who.int/en/media-centre/sections/press-releases/2019/measles-in-europe-record-number-of-both-sick-and-immunized (accessed May 13, 2019).  
+[2]	European Commission, State of Vaccine Confidence in the EU, Publications Ofce of the European Union, 2018. https://ec.europa.eu/health/sites/health/files/vaccination/docs/2018_vaccine_confidence_en.pdf (accessed May 13, 2019).  
+[3]	ECHA, Glyphosate not classified as a carcinogen by ECHA, (2017). https://echa.europa.eu/-/glyphosate-not-classified-as-a-carcinogen-by-echa (accessed May 9, 2019).  
+[4]	EFSA, Conclusion on the peer review of the pesticide risk assessment of the active substance glyphosate, EFSA Journal. 13 (2015). https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2015.4302 (accessed May 9, 2019).  
+[5]	JMPR, Results of joint FAO/WHO Meeting on Pesticide Residues (JMPR), (2016). http://www.euro.who.int/en/health-topics/disease-prevention/food-safety/news/news/2016/05/results-of-joint-faowho-meeting-on-pesticide-residues-jmpr (accessed May 9, 2019).  
+[6]	US EPA, EPA Releases Draft Risk Assessments for Glyphosate, (2017). https://www.epa.gov/pesticides/epa-releases-draft-risk-assessments-glyphosate (accessed May 9, 2019).  
+[7]	K.M. Douglas, R.M. Sutton, A. Cichocka, The psychology of conspiracy theories, Current Directions in Psychological Science. 26 (2017) 538–542.  
+[8]	D.J. Clark, Behind the Curve, Delta-v Productions, 2018.  
+[9]	N. Oreskes, E.M. Conway, Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming, Bloomsbury Publishing, 2011. https://books.google.be/books?id=CrtoNFTuPwwC.  
+[10]	World Health Organization, WHO report on the global tobacco epidemic, 2017: monitoring tobacco use and prevention policies, World Health Organization, Geneva, 2017.  
+[11]	R. Srivastava, My patient swapped chemotherapy for essential oils. Arguing is a fool’s errand, The Guardian. (2019). https://www.theguardian.com/commentisfree/2019/feb/14/my-patient-swapped-chemotherapy-for-essential-oils-arguing-is-a-fools-errand (accessed May 9, 2019).  
