@@ -11,6 +11,7 @@ My name is Bert and I am a Ph.D. student within the Environmental Economics rese
 [Google Scholar](https://scholar.google.be/citations?user=RP4y7_8AAAAJ&hl=nl)  
 [LinkedIn](https://www.linkedin.com/in/bertlenaerts)  
 [Research Gate](https://www.researchgate.net/profile/Bert_Lenaerts/publications)
+[GitHub](https://github.com/BertLenaerts)
 
 ### Contact me
 
