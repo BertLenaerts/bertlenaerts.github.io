@@ -52,18 +52,19 @@ Note the difference in sytax between *plm* and *felm* in specifying the exogenou
  For higher-level clustering, the original code from *vcovHC* needs to be adapted (see vcovCL.R). 
 
     # TWOWAY CLUSTERING
-    coeftest(plm3, vcov=vcovDC(plm3, type="HC0"))
-    coeftest(plm3, vcov=vcovTC(x=plm3, d$year, d$id, stata=F))
     coeftest(plm3, vcov=( (40/(41-14+1-2))*(9/8)*vcovCL(x=plm3, cluster=d$id)+
                              (40/(41+1-14-2))*(5/4)* vcovCL(x=plm3, cluster=d$year)-
                              (40/(41-14+1-2))*(41/40)*vcovHC(plm3, type="HC0", method = "white1") ) )
     coeftest(plm3, vcov=vcovTC(x=plm3, d$year, d$id, stata=T))
     summary(felm(y ~ u | id+year | (x ~ e) | (id+year), d))
     
-Two-way clustering can be carried out by Although *plm* has a double clustering command (*vcovDC*), it does not allow for a Stata-like df correction. The correction implemented by *felm* uses correction suggested by Cameron et al. (2011). That is, the group and time cluster are intersected to generate
-a third cluster variable; if the id-year combos are unique then this is equivalent
-to White's heteroskedasticity-robust correction
-since felm allows non-unique year-id combos (and also allows for multi-way clustering),
-the third variable method is implemented, whereas plm uses the White method
-the df correction for the substraction term takes the number of clusters for the
-third variable for felm whereas plm uses the standard White HC df correction
+Two-way clustering is carried out by first clustering on both the group and time level individually and summing the variance-covariane matrices, and second by substracting a correction term. The *vcovDC* command uses as a correction term the usual (White) heteroskedasticity-robust variance matrix (Thompson, 2011). The correction implemented by *felm* is suggested by Cameron et al. (2011). That is, the group and time cluster are intersected to generate a third cluster variable. If the group-time combinations are unique, this approach is equivalent to White's heteroskedasticity-robust correction. Since our dataset *d* contains only unique id-year observations, we can check this:
+
+    vcovCL(x=plm3, cluster=d$idyear)
+    vcovHC(plm3, type="HC0", method = "white1")
+
+The *vcovDC* command implements the Thompson (2011) approach since it does not allow non-unique group-time combinations (opposite to *felm*). Two disadvantages of the *vcocDC* command are that it (i) does not allow manual Stata-like df correction, and (ii) can generate negative variances. Similar to the *vcovHC* command, *vcovDC* allows MacKinnon and White (1985) df correction but not a Stata-like correction. Since two-way clustering consists of the sum of three terms, term-specific Stata-like df corrections are needed and *vcovDC* does not facilite this. The two-way clustering approach by Cameron et al. (2011) also has a Stata-like df of freemdom correction where the number of unique clusters formed by the intersection of the group and time level are used. Second, the Thompson (2011) approach can generate negative variances if the White variances are larger than the sum of the group- and time-wise clustered variances. This is the case for our sample if we do not correct for the degrees of freedom:
+
+    coeftest(plm3, vcov=vcovDC(plm3, type="HC0"))
+    coeftest(plm3, vcov=vcovTC(x=plm3, d$year, d$id, stata=F))
+ 
