@@ -34,8 +34,7 @@ References
 6. 	Keynes JM. Professor Tinbergen’s method. The Economic Journal. 1939;49(195):558–68. 
 7. 	Boumans MJ. Econometrics: The Keynes-Tinbergen Controversy. SSRN Electronic Journal. 2015; 
 8. 	Garrison RW. Mises and His Methods. In: Herbener JM, editor. The Meaning of Ludwig von Mises. Dordrecht: Springer Netherlands; 1993. p. 102–17. 
-9. 	Rogeberg O. Taking Absurd Theories Seriously: Economics and the Case of Rational Addiction Theories. Philosophy of Science. 2004. 71(3):263–85. 
-10. 	Krugman P. Two cheers for formalism. The Economic Journal. 1998;108(451):1829–36. 
+
 11. 	Diener E, Lucas R, Helliwell JF, Helliwell J, Schimmack U. Issues Regarding the Use of Well-Being Measures for Policy. In: Well-being for public policy. Series in Positive Psychology; 2009. p. 245. 
 12. 	Borjas GJ, Van Ours JC. Labor economics. McGraw-Hill/Irwin Boston; 2010. 
 13. 	Rodrik D. Economics rules: The rights and wrongs of the dismal science. WW Norton & Company; 2015. 
