@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Bert and I am a Ph.D. student within the Environmental Economics research group at the Faculty of Business Economics (Hasselt University). I am currently involved in a project to estimate the economic impact of air transportation and location in Europe. Further research insterests include Sustainable Development, Transportation Economics, Economics of Breeding and Economic Geography.
 
 ### More Information
 
