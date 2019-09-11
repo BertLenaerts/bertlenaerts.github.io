@@ -68,3 +68,8 @@ The *vcovDC* command implements the Thompson (2011) approach since it does not a
     coeftest(plm3, vcov=vcovDC(plm3, type="HC0"))
     coeftest(plm3, vcov=vcovTC(x=plm3, d$year, d$id, stata=F))
  
+**References**
+
+Cameron, A.C., Gelbach, J.B., Miller, D.L., 2011. Robust inference with multiway clustering. J. Bus. Econ. Stat. 29, 238–249.  
+MacKinnon, J.G., White, H., 1985. Some heteroskedasticity-consistent covariance matrix estimators with improved finite sample properties. J. Econom. 29, 305–325.  
+Thompson, S.B., 2011. Simple formulas for standard errors that cluster by both firm and time. J. Financ. Econ. 99, 1–10.  
