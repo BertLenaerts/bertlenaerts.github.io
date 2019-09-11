@@ -2,6 +2,7 @@
 layout: post
 title: Critical econometrics - a brief note on the current state of quantitative economics
 ---
+
 Recently, a group of students and academicians raised their concerns about the current state of economics, especially the way it is taught in academia (1–3). Many of the criticisms raised are not new and go back to Keynes’ and Mises’ well-known objection against a quantitative approach to economics (see Figure 1 for an overview of some of these critiques and their counter-arguments). The authors of *Thinking like an Economist?* find it particularly troubling that economics students in the Netherlands are primarily being taught quantitative and mathematical research skills. This parallels a growing tendency towards technical complexity in current economic practices. Yet, it contrasts sharply with Keynes’ scepticism towards quantitative economics as a viable field of interest:  
 > *No one could be more frank, more painstaking, more free from subjective bias or parti pris than Professor Tinbergen. There is no one, therefore, so far as human qualities go, whom it would be safer to trust with black magic. That there is anyone I would trust with it at the present stage or that this brand of statistical alchemy is ripe to become a branch of science, I am not yet persuaded. But Newton, Boyle and Locke all played with alchemy. So let him continue.* (4 p. 156)
 
@@ -35,7 +36,7 @@ References
 7. 	Boumans MJ. Econometrics: The Keynes-Tinbergen Controversy. SSRN Electronic Journal. 2015; 
 8. 	Garrison RW. Mises and His Methods. In: Herbener JM, editor. The Meaning of Ludwig von Mises. Dordrecht: Springer Netherlands; 1993. p. 102–17. 
 9. 	Rogeberg O. Taking Absurd Theories Seriously: Economics and the Case of Rational Addiction Theories. Philosophy of Science. 2004 Jul;71(3):263–85. 
-10. 	Krugman P. Two cheers for formalism. The Economic Journal. 1998;108(451):1829–36. 
+ 
 11. 	Diener E, Lucas R, Helliwell JF, Helliwell J, Schimmack U. Issues Regarding the Use of Well-Being Measures for Policy. In: Well-being for public policy. Series in Positive Psychology; 2009. p. 245. 
 12. 	Borjas GJ, Van Ours JC. Labor economics. McGraw-Hill/Irwin Boston; 2010. 
 13. 	Rodrik D. Economics rules: The rights and wrongs of the dismal science. WW Norton & Company; 2015. 
