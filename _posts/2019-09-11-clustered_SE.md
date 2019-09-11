@@ -10,7 +10,7 @@ title: Clustered standard errors - plm vs felm
     
 ddddd
 
-| **Table 2** Comparison of different standard error estimates for the country fixed-effects model. |
+**Table 2** Comparison of different standard error estimates for the country fixed-effects model.
 | --- |
 |   | OLS | White | Cluster importer | Cluster exporter | Cluster bilateral pairs | Newey–West§ | Driscoll–Kraay | Bootstrap# | Bootstrap cluster importer‡ | Bootstrap cluster exporter¶ |
 | ADijt | -0.0564 | -0.0564 | -0.0564 | -0.0564 | -0.0564 | -0.0564 | -0.0564\* | -0.0564 | -0.0564 | -0.0564 |
