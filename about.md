@@ -14,6 +14,4 @@ My name is Bert and I am a Ph.D. student within the Environmental Economics rese
 
 ### Contact me
 
-[eb.tlessahu@streanel.treb](mailto:eb.tlessahu@streanel.treb)
-
-(mirrored address)
+[eb.tlessahu@streanel.treb](mailto:eb.tlessahu@streanel.treb) (mirrored address)
