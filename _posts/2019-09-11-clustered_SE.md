@@ -1,44 +1,62 @@
 ---
 layout: post
-title: Clustered standard errors - plm vs felm
+title: Clustered standard errors - plm (R) vs felm (R) vs Stata
 ---
 
 In a previous blog I mentioned the possibility to cluster on more than one level or to cluster on supra-group levels. Whereas Stata has long been known to provide clustering options on many of its commands, R is quickly catching up, especially in panel models. In fact, automated two-way clustering (as well as two-way fixed effects) are only possible in R. In this blog, I will compare two R commands (*plm* and *felm*) and the equivalent commands in Stata that allow flexible clustering options for fixed effects models. Code (R and Stata) and an example dataset to reproduce the results are provided on GitHub.
 
-The *plm* package with its identically named workhorse function is perhaps the most well-known panel command in R. It allows for two-way clustering using the *effect="twoway"* option. To adjust the standard errors using clustering, one needs to use the *vcovHC* (single clustering) or *vcovDC* (double clustering) commands. One drawback is the restriction to cluster on either the group or time level (or both). Higher-level clustering is (currently) not supported by *plm*.  Fortunately, adapting the existing code to allow for higher-level clustering is relatively easy (see vcovCL.R on GitHub).  
+The *plm* package with its identically named command is perhaps the most well-known panel command in R. It allows for two-way fixed-effects using the *effect="twoway"* option. To adjust the standard errors using clustering, one needs to use the *vcovHC* (single clustering) or *vcovDC* (double clustering) commands. One drawback is the restriction to cluster on either the group or time level (or both). Higher-level clustering is (currently) not supported by *plm*. Fortunately, adapting the existing code to allow for higher-level clustering is relatively easy (see vcov_plm.R on GitHub for the commands *vcovHR*, *vcovCL* and *vcovTC*).  
 
-The *felm* command (from the *fle* package) does allows for double (or even multi-way) clustering. One difficulty in comparing both commands lies in their degree of freedom correction: *plm* offers different corrections based on MacKinnon and White (1985), *felm* only offers a Stata-like df correction ([link](https://www.stata.com/support/faqs/statistics/robust-standard-errors/)). 
+The *felm* command (from the *fle* package) does allows for double (or even multi-way) clustering. One difficulty in comparing both commands lies in their degree of freedom (df) correction: *plm* offers different corrections based on MacKinnon and White (1985), whereas *felm* only offers a Stata-like df correction ([link](https://www.stata.com/support/faqs/statistics/robust-standard-errors/)). 
 
-Let's start with a dataset that allows for time, group and higher-level clustering:
+Let's start with a dataset that allows for time, group and higher-level clustering. To load the dataset into R:
 
     d = read_csv("d.csv") %>%
         mutate(idyear = as.numeric(paste0(id, year)))
-        
-This example data contains 41 observations, 9 group levels (id), 5 time levels (year), 3 cluster levels (gid), 2 independent variables (x and u), of which x is endogenous, and 1 instrument (e). 
-
-Using this example, we can easily compare *plm* and *felm* if we correct for the degrees of freedom manually:
-
-    library(plm)
-    library(lfe) 
-    library(lmtest)
-    library(dplyr)
-    library(readr)
-    source("vcovCL.R")
     
-    ## TWOWAY FIXED EFFECTS
+The equivalent commands are Stata are:
 
-    plm3=plm(y~x +u | u+e,
+    import delimited "d.csv", clear 
+    qui tab id, gen(k)
+    xtset id year
+
+This example data contains 41 observations, 9 group levels (id), 5 time levels (year), 3 cluster levels (gid), and 2 independent variables (x and u). 
+
+The uncorrected standard errors for a two-way fixed-effects model in R are:
+
+    plm3=plm(y~x + u,
              data=d,
              model="within", 
              effect="twoway", 
              index=c("id", "year"))
 
-    # GROUP CLUSTER
-    coeftest(plm3, vcov=(40/(41-14+1-2))*(9/8)*vcovHC(plm3, type="HC0", cluster="group"))
-    coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$id, stata=T))
-    summary(felm(y ~ u | id+year | (x ~ e) | id, d))
+    summary(plm3)
+    summary(felm(y ~ u + x| id+year | 0 | 0, d))
     
-Note the difference in syntax between *plm* and *felm* in specifying the exogenous, fixed and cluster variables. Since we have two-way fixed effects, the number of covariates (often denoted k) is equal to 15 and not 16 since the intercept (which can be left out if all fixed effects are added) can only be left out once. The *HC0* option indicates no df correction is carried out, while *stata=T* performs the same correction as *felm*. 
+and in Stata:
+
+    reg y u x i.year k*
+    xtreg y u x i.year, fe
+    
+Note (i) the difference in syntax between *plm* and *felm* in specifying the exogenous, fixed and cluster variables, and (ii) that in Stata two-way fixed effects are not automated (i.e. either the time- or group-fixed have to be added manually as dummies).
+
+The heteroskedasticity-consistent (White's) standard errors in R can be obtained by:
+
+    coeftest(plm3, vcov=(41/(41-14+1-2))*vcovHC(plm3, type="HC0", method = "white1"))
+    coeftest(plm3, vcovHR(plm3, stata = T))
+
+and in Stata by:
+
+    reg y u x i.year k*, robust
+
+The command *vcovHR* is essentially a wrapper of the *vcovHC* command using a Stata-like df correction.
+
+Clustering can be done at different levels (group, time, higher-level), both at a single or mutiple levels simultaneously.
+
+    coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$id, stata = T))
+    summary(felm(y ~ u + x| id+year | 0 | id, d))
+
+Since we have two-way fixed effects, the number of covariates (often denoted k) is equal to 15 and not 16 since the intercept (which can be left out if all fixed effects are added) can only be left out once. 
 
     # TIME CLUSTER
     coeftest(plm3, vcov=(40/(41-14+1-2))*(5/4)*vcovHC(plm3, type="HC0", cluster="time"))
