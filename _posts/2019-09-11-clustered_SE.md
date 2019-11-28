@@ -43,7 +43,7 @@ Note (i) the difference in syntax between *plm* and *felm* in specifying the exo
 The heteroskedasticity-consistent (White's) standard errors in R can be obtained by:
 
     coeftest(plm3, vcov=(41/(41-14+1-2))*vcovHC(plm3, type="HC0", method = "white1"))
-    coeftest(plm3, vcovHR(plm3, stata = T))
+    coeftest(plm3, vcovHR(plm3))
 
 and in Stata by:
 
@@ -53,7 +53,7 @@ The command *vcovHR* is essentially a wrapper of the *vcovHC* command using a St
 
 Clustering can be done at different levels (group, time, higher-level), both at a single or mutiple levels simultaneously. In R, clustering at the group level can be done as follows:
 
-    coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$id, stata = T))
+    coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$id))
     summary(felm(y ~ u + x| id+year | 0 | id, d))
     
 and in Stata by:
@@ -65,7 +65,7 @@ Since we have two-way fixed effects, the number of covariates (often denoted k) 
 
 Analogously, clustering can be done at the time level:
 
-    coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$year, stata = T))
+    coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$year))
     summary(felm(y ~ u + x| id+year | 0 | year, d))
 
     reg y u x k* i.year, vce(cluster year)
@@ -73,7 +73,7 @@ Analogously, clustering can be done at the time level:
     
 or at a higher level:
 
-    coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$gid, stata=T))
+    coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$gid))
     summary(felm(y ~ u + x| id+year | 0 | gid, d))
 
     reg y u x k* i.year, vce(cluster gid)
@@ -82,7 +82,7 @@ or at a higher level:
 R also offers the option of two-way clustering (unlike Stata):
 
     coeftest(plm3, vcov=vcovDC(plm3, type="HC0"))
-    coeftest(plm3, vcov=vcovTC(x=plm3, d$year, d$id, stata=T))
+    coeftest(plm3, vcov=vcovTC(x=plm3, d$year, d$id))
     summary(felm(y ~ u + x| id+year | 0 | (id+year), d))
     
 Two-way clustering is carried out by first clustering on both the group and time level individually and summing the variance-covariane matrices, and second by substracting a correction term. The *vcovDC* command (part of *plm*) uses as a correction term the usual (White) heteroskedasticity-robust variance matrix (Thompson, 2011). The correction implemented by *felm* is suggested by Cameron et al. (2011). That is, the group and time variable are intersected to generate a third cluster variable. If the group-time combinations are unique, this approach is equivalent to White's heteroskedasticity-robust correction. 
