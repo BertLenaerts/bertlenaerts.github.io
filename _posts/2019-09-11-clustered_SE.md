@@ -7,7 +7,7 @@ In a previous blog I mentioned the possibility to cluster on more than one level
 
 The *plm* package with its identically named command is perhaps the most well-known panel command in R. It allows for two-way fixed-effects using the *effect="twoway"* option. To adjust the standard errors using clustering, one needs to use the *vcovHC* (single clustering) or *vcovDC* (double clustering) commands. One drawback is the restriction to cluster on either the group or time level (or both). Higher-level clustering is (currently) not supported by *plm*. Fortunately, adapting the existing code to allow for higher-level clustering is relatively easy (see vcov_plm.R on GitHub for the commands *vcovHR*, *vcovCL* and *vcovTC*).  
 
-The *felm* command (from the *fle* package) does allows for double (or even multi-way) clustering. One difficulty in comparing both commands lies in their degree of freedom (df) correction: *plm* offers different corrections based on MacKinnon and White (1985), whereas *felm* only offers a Stata-like df correction ([link](https://www.stata.com/support/faqs/statistics/robust-standard-errors/)). 
+The *felm* command (from the *fle* package) does allows for double (or even multi-way) clustering. One difficulty in comparing both commands lies in their degree of freedom (df) correction: *plm* offers different corrections based on MacKinnon and White (1985), whereas *felm* only offers a Stata-like df correction ([link](https://www.stata.com/support/faqs/statistics/robust-standard-errors/)). Since *plm* does not allow a Stata-like df correction, I rewrote the command *vcovHC* into three separate commands that do: *vcovHR*, *vcovCL* and *vcovTC*.
 
 Let's start with a dataset that allows for time, group and higher-level clustering. To load the dataset into R:
 
@@ -81,18 +81,14 @@ or at a higher level:
     
 R also offers the option of two-way clustering (unlike Stata):
 
+    coeftest(plm3, vcov=vcovDC(plm3, type="HC0"))
     coeftest(plm3, vcov=vcovTC(x=plm3, d$year, d$id, stata=T))
     summary(felm(y ~ u + x| id+year | 0 | (id+year), d))
     
-Two-way clustering is carried out by first clustering on both the group and time level individually and summing the variance-covariane matrices, and second by substracting a correction term. The *vcovTC* command uses as a correction term the usual (White) heteroskedasticity-robust variance matrix (Thompson, 2011). The correction implemented by *felm* is suggested by Cameron et al. (2011). That is, the group and time variable are intersected to generate a third cluster variable. If the group-time combinations are unique, this approach is equivalent to White's heteroskedasticity-robust correction. 
+Two-way clustering is carried out by first clustering on both the group and time level individually and summing the variance-covariane matrices, and second by substracting a correction term. The *vcovDC* command (part of *plm*) uses as a correction term the usual (White) heteroskedasticity-robust variance matrix (Thompson, 2011). The correction implemented by *felm* is suggested by Cameron et al. (2011). That is, the group and time variable are intersected to generate a third cluster variable. If the group-time combinations are unique, this approach is equivalent to White's heteroskedasticity-robust correction. 
 
-The *vcovDC* command implements the Thompson (2011) approach since it does not allow non-unique group-time combinations (opposite to *felm*). Two disadvantages of the *vcocDC* command are that it (i) does not allow manual Stata-like df correction, and (ii) can generate negative variances. Similar to the *vcovHC* command, *vcovDC* allows MacKinnon and White (1985) df corrections but not a Stata-like correction. Since two-way clustering consists of the sum of three terms, term-specific Stata-like df corrections are needed and *vcovDC* does not facilite this. Cameron et al. (2011) suggest a Stata-like df of freedom correction where the number of unique clusters formed by the intersection of the group and time level are used for the correction term. I wrote the *vcovTC* function (see vcovCL.R), which allows for a Stata-like df correction using the Thompson (2011) approach.
+Lastly, the Thompson (2011) approach can generate negative variances if the White variances are larger than the sum of the group- and time-wise clustered variances. This is the case for our sample with two-way fixed effects and explains why *coeftest(vcovTC)* and *felm* do not report the same result.
 
-Second, the Thompson (2011) approach can generate negative variances if the White variances are larger than the sum of the group- and time-wise clustered variances. This is the case for our sample if we do not correct for the degrees of freedom:
-
-    coeftest(plm3, vcov=vcovDC(plm3, type="HC0"))
-    coeftest(plm3, vcov=vcovTC(x=plm3, d$year, d$id, stata=F))
- 
 **References**
 
 Cameron, A.C., Gelbach, J.B., Miller, D.L., 2011. Robust inference with multiway clustering. J. Bus. Econ. Stat. 29, 238–249.  
