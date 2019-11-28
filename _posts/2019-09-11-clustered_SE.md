@@ -14,13 +14,13 @@ Let's start with a dataset that allows for time, group and higher-level clusteri
     d = read_csv("d.csv") %>%
         mutate(idyear = as.numeric(paste0(id, year)))
     
-The equivalent commands are Stata are:
+The equivalent commands in Stata are:
 
     import delimited "d.csv", clear 
     qui tab id, gen(k)
     xtset id year
 
-This example data contains 41 observations, 9 group levels (id), 5 time levels (year), 3 cluster levels (gid), and 2 independent variables (x and u). 
+This example data contains 41 observations, 9 group levels (id), 5 time levels (year), 3 cluster levels (gid), and 2 independent variables (x and u). In this example, the group panels (id) are nested within the clusters (gid).
 
 The uncorrected standard errors for a two-way fixed-effects model in R are:
 
@@ -49,37 +49,42 @@ and in Stata by:
 
     reg y u x i.year k*, robust
 
-The command *vcovHR* is essentially a wrapper of the *vcovHC* command using a Stata-like df correction.
+The command *vcovHR* is essentially a wrapper of the *vcovHC* command using a Stata-like df correction. In Stata, the *robust* option only delivers HC standard erros in non-panel models. In panel models, it delivers clustered standard errors instead.
 
-Clustering can be done at different levels (group, time, higher-level), both at a single or mutiple levels simultaneously.
+Clustering can be done at different levels (group, time, higher-level), both at a single or mutiple levels simultaneously. In R, clustering at the group level can be done as follows:
 
     coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$id, stata = T))
     summary(felm(y ~ u + x| id+year | 0 | id, d))
+    
+and in Stata by:
 
-Since we have two-way fixed effects, the number of covariates (often denoted k) is equal to 15 and not 16 since the intercept (which can be left out if all fixed effects are added) can only be left out once. 
+    reg y u x k* i.year, vce(cluster id)
+    xtreg y u x i.year, fe cluster(id) dfadj
 
-    # TIME CLUSTER
-    coeftest(plm3, vcov=(40/(41-14+1-2))*(5/4)*vcovHC(plm3, type="HC0", cluster="time"))
-    coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$year, stata=T))
-    summary(felm(y ~ u | id+year | (x ~ e) | year, d))
+Since we have two-way fixed effects, the number of covariates (often denoted k) here is equal to 15 and not 16 since the intercept (which can be left out if all fixed effects are added) can only be left out once. Note that the *dfadj* option is needed to ensure the appropriate df correction is carried out.
 
-    # HIGHER-LEVEL CLUSTER
+Analogously, clustering can be done at the time level:
+
+    coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$year, stata = T))
+    summary(felm(y ~ u + x| id+year | 0 | year, d))
+
+    reg y u x k* i.year, vce(cluster year)
+    * no xtreg example as the time panels are not nested within clusters in this example
+    
+or at a higher level:
+
     coeftest(plm3, vcov=vcovCL(x=plm3, cluster=d$gid, stata=T))
-    summary(felm(y ~ u | id+year | (x ~ e) | gid, d))
-    
- For higher-level clustering, the original code from *vcovHC* needs to be adapted (see vcovCL.R). 
+    summary(felm(y ~ u + x| id+year | 0 | gid, d))
 
-    # TWOWAY CLUSTERING
-    coeftest(plm3, vcov=( (40/(41-14+1-2))*(9/8)*vcovCL(x=plm3, cluster=d$id)+
-                             (40/(41+1-14-2))*(5/4)* vcovCL(x=plm3, cluster=d$year)-
-                             (40/(41-14+1-2))*(41/40)*vcovHC(plm3, type="HC0", method = "white1") ) )
+    reg y u x k* i.year, vce(cluster gid)
+    xtreg y u x i.year, fe cluster(gid) dfadj
+    
+R also offers the option of two-way clustering (unlike Stata):
+
     coeftest(plm3, vcov=vcovTC(x=plm3, d$year, d$id, stata=T))
-    summary(felm(y ~ u | id+year | (x ~ e) | (id+year), d))
+    summary(felm(y ~ u + x| id+year | 0 | (id+year), d))
     
-Two-way clustering is carried out by first clustering on both the group and time level individually and summing the variance-covariane matrices, and second by substracting a correction term. The *vcovDC* command uses as a correction term the usual (White) heteroskedasticity-robust variance matrix (Thompson, 2011). The correction implemented by *felm* is suggested by Cameron et al. (2011). That is, the group and time variable are intersected to generate a third cluster variable. If the group-time combinations are unique, this approach is equivalent to White's heteroskedasticity-robust correction. Since our dataset *d* contains only unique id-year observations, we can check this:
-
-    vcovCL(x=plm3, cluster=d$idyear)
-    vcovHC(plm3, type="HC0", method = "white1")
+Two-way clustering is carried out by first clustering on both the group and time level individually and summing the variance-covariane matrices, and second by substracting a correction term. The *vcovTC* command uses as a correction term the usual (White) heteroskedasticity-robust variance matrix (Thompson, 2011). The correction implemented by *felm* is suggested by Cameron et al. (2011). That is, the group and time variable are intersected to generate a third cluster variable. If the group-time combinations are unique, this approach is equivalent to White's heteroskedasticity-robust correction. 
 
 The *vcovDC* command implements the Thompson (2011) approach since it does not allow non-unique group-time combinations (opposite to *felm*). Two disadvantages of the *vcocDC* command are that it (i) does not allow manual Stata-like df correction, and (ii) can generate negative variances. Similar to the *vcovHC* command, *vcovDC* allows MacKinnon and White (1985) df corrections but not a Stata-like correction. Since two-way clustering consists of the sum of three terms, term-specific Stata-like df corrections are needed and *vcovDC* does not facilite this. Cameron et al. (2011) suggest a Stata-like df of freedom correction where the number of unique clusters formed by the intersection of the group and time level are used for the correction term. I wrote the *vcovTC* function (see vcovCL.R), which allows for a Stata-like df correction using the Thompson (2011) approach.
 
