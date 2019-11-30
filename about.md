@@ -10,7 +10,7 @@ Highly motivated young professional with an engineering degree in bioeconomics a
 
 [Google Scholar](https://scholar.google.be/citations?user=RP4y7_8AAAAJ&hl=nl)  
 [LinkedIn](https://www.linkedin.com/in/bertlenaerts)  
-[Research Gate](https://www.researchgate.net/profile/Bert_Lenaerts/publications)  
+[ResearchGate](https://www.researchgate.net/profile/Bert_Lenaerts/publications)  
 [GitHub](https://github.com/BertLenaerts)
 
 ### Contact me
