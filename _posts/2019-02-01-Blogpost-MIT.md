@@ -9,3 +9,5 @@ called MIT Monday. In these blogs I talked about <a href="https://raw.githubuser
 
 
 https://docs.google.com/viewer?url=https://raw.githubusercontent.com/bertlenaerts/bertlenaerts.github.io/master/files/2_MIT_MONDAY.pdf
+
+<a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/bertlenaerts/bertlenaerts.github.io/master/files/2_MIT_MONDAY.pdf" target="_blank">the reason for my stay</a>
