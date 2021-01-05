@@ -48,6 +48,7 @@ The heteroskedasticity-consistent (White's) standard errors in R can be obtained
 
     coeftest(plm3, vcov=(41/(41-14+1-2))*vcovHC(plm3, type="HC0", method = "white1"))
     coeftest(plm3, vcovHR(plm3))
+    summary(felm(y ~ u + x| id+year | 0 | 0, df), robust = TRUE)
 
 and in Stata by:
 
