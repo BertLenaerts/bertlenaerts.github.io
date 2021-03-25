@@ -13,7 +13,6 @@ The original blog post compared the classic correlation matrix to the PPS matrix
 ![PPS matrix](/images/PPS_plot.png) 
 **<p style="color:black; font-size:10%;" align="center">PPS matrix</p>**
 
-<center>This text is centered.  And clean.  Amen.</center>
+<center>**This text is centered.  And clean.  Amen.**</center>
 
-Test text
-{: style="color:gray; font-size: 80%; text-align: center;"}
+**<center>This text is centered.  And clean.  Amen.</center>**
