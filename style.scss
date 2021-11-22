@@ -158,7 +158,6 @@ img {
 
 .masthead {
   padding: 20px 0;
-	font-weight: bold;
   border-bottom: 1px solid $background;
 
   @include mobile {
@@ -215,6 +214,7 @@ img {
 
 nav {
   float: right;
+		font-weight: bold;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $amiri;
   font-size: 18px;
