@@ -66,11 +66,11 @@ h4 {
 
 p {
   margin: 15px 0;
+  font-weight: bold;
 }
 
-a {
+a { // links
   color: $blue;
-  font-weight: bold;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
