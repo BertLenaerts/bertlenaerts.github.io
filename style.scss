@@ -74,6 +74,7 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
+	  font-weight: bold;
   }
 }
 
@@ -257,7 +258,7 @@ nav {
     border-left: 2px solid $darkGray;
     padding: 0.1em 1em;
     color: $darkGray;
-    font-family: $arial;
+    font-family: $amiri;
     font-size: 22px;
     font-style: italic;
   }
