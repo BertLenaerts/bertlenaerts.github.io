@@ -61,12 +61,13 @@ h3 {
 
 h4 {
   font-size: 18px;
+	font-weight: bold;
   color: $darkGray;
 }
 
-p {
+p { // normal text
   margin: 15px 0;
-  font-weight: bold;
+  
 }
 
 a { // links
