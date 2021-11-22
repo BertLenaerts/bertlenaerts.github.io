@@ -214,7 +214,6 @@ img {
 
 nav {
   float: right;
-		font-weight: bold;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $amiri;
   font-size: 18px;
@@ -228,6 +227,7 @@ nav {
 
   a {
     margin-left: 20px;
+	  		font-weight: bold;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
