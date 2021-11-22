@@ -9,19 +9,14 @@ $background: #ededed;
 
 // Grays
 $black: #000;
-$darkerGray: #222;
 $darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
 $cambria: "Cambria", sans-serif;
-$amiri: "Amiri", sans-serif;
+$amiri: "Amiri", serif;
 $nunito: "Nunito", sans-serif;
+$arial: "Arial", sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
