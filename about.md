@@ -6,7 +6,7 @@ permalink: /about/
 
 ### Profile
 
-Highly motivated young professional with an engineering degree in bioeconomics, currently working as a doctoral researcher in economic geography and data science within the Environmental Economics research group at the Faculty of Business Economics (Hasselt University). 
+Highly motivated young professional with an engineering degree in bioeconomics, currently working as Postdoctoral Fellow at the International Rice Research Institute (IRRI), part of the CGIAR System Organization, a global research partnership for a food secure future.
 
 * <a id="raw-url" href="https://raw.githubusercontent.com/bertlenaerts/bertlenaerts.github.io/master/files/cv_Bert Lenaerts_no_contacts.pdf">Download my CV</a>
 * [Google Scholar Profile](https://scholar.google.be/citations?user=RP4y7_8AAAAJ&hl=nl)  
@@ -15,6 +15,6 @@ Highly motivated young professional with an engineering degree in bioeconomics, 
 
 ### Contact me
 
-* Mail: [eb.tlessahu@streanel.treb](mailto:eb.tlessahu@streanel.treb) (mirrored address)
+* Mail: [gro.irri@streanel.b](mailto:gro.irri@streanel.b) (mirrored address)
 * [Connect on LinkedIn](https://www.linkedin.com/in/bertlenaerts) 
 
