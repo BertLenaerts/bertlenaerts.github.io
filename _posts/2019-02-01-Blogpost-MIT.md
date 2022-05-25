@@ -53,3 +53,28 @@ But is this argument really justified? To which extent do more or better air ser
 In my research, I want to do things a bit differently. Unlike previous studies, I do not look at traffic volumes. Instead, I use a connectivity metric that takes into account both the quality of the connection (using one or two connecting flights) and the economic size of the destination. And this is where MIT comes in, as they have the data and computer power to calculate such a metric.
 
 Secondly, we do not focus on large cities (who have an airport) only. I  include smaller regions as well by integrating the distance between a centre of population and all available airports, in my calculations. This approach not only looks at a more realistic sample of regions, but it also reflects the travelling distance to the airport. After all, people—with the possible exception of Tom Hanks' character Viktor Navorski—do not live in airports! 
+
+<h5>3. Show me the money (Dec 10, 2018)</h5>
+
+<h4>The Fulbright exchange program</h4>
+
+A brand new week, a brand new Monday. Thus far, I have mostly talked about my research and the lab at MIT where I will be executing it. However, a research stay is about so much more than just conducting science. It involves discovering an unexplored city, integrating into an unknown community and assimilating with new cultures. On top of that you are also representing your own country and culture. It's this exciting mix mash that prompted me to apply for the Fulbright exchange program at Fulbright Belgium, which is the Commission for Educational Exchange between the United States of America, Belgium and Luxembourg. 
+
+As the name indicates, its mission is to foster bilateral relationships between the US and the various participating countries. More specifically, it aims to improve intercultural relations, diplomacy, and exchange through education and research. It, therefore, encourages recent graduates and young professionals to apply and experience a semester or more abroad. The Fulbright program is open to all nationalities, although more non-US citizens are granted a scholarship than US citizens.
+
+<h4>Surviving all rounds</h4>
+
+The Fulbright program is quite prestigious, especially in the US. As a consequence, the recruitment procedure is awfully selective. The Belgian selection process requires three letters of recommendation, an outstanding resume, two letters stating your study/research objective and personal statement, and (preferably) an invitation from an American university. And that's just the first round.
+
+Applicants who don’t get knocked out in the first round have to appear before the Commission's expert panel. I still vividly remember being selected for my interview: I was super excited about the fact that I managed to pass the first round, but also really nervous as I had to face the panel now. The Belgium Fulbright panel gathers in the Royal Library in our capital city Brussels, in a room called the 'Salle du Conseil', the council chamber. I went there on one of these typical Belgian grey rainy days -wearing my suit- quite naïvely expecting only a handful of experts, as is the case for various other grant application procedures. However, when I entered the room, I very quickly realized it was quite the contrary!
+
+Although the room itself was fairly small, with an enormous table taking up most of the space, there was a panel present of approximately 15 people with a stoic look, all facing a single chair on the other side of the table that was specially reserved for ... me. An impressive welcome indeed. But I managed to hold my nerves and gave it my all. I confronted the panel's questions calmly and with confidence, hoping to convince them of my research project and my skills to successfully complete it. In the end, the panel turned out to be very nice; in any case, no one bit me or something like that.
+
+<h4>An amazing opportunity</h4>
+
+And then came the worst part of the whole selection procedure: the period in which you have to wait until they announce the final verdict. After what seemed to be forever to me I finally received the good news from Fulbright Belgium. I was selected for the exchange program. Saying I was happy with this announcement would be a vast understatement of the feelings of accomplishment that rushed through my body at that moment.
+
+![](/images/3_MIT_MONDAY.jpeg)
+
+When selected, Fulbright grantees are appointed a scholarship. In addition to this, the Fulbright program supports its scholars by organizing welcome receptions, pre-departure orientation sessions, cultural events, and much more. Thanks to the amazing Fulbright community I got invited to a real American Thanksgiving dinner! Fulbright also awards a monthly stipend to cover tuition, living costs, etc.; as well as sickness and accident insurance, which comes in handy as cities as Boston and New York can be terribly expensive to live in, but more about that in my next blog...
+
