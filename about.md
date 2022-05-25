@@ -15,6 +15,6 @@ Highly motivated young professional with an engineering degree in bioeconomics, 
 
 ### Contact me
 
-* Mail: [gro.irri@streanel.b](mailto:gro.irri@streanel.b) (mirrored address)
+* Mail: [b.lenaerts(at)irri.org](mailto:b.lenaerts(at)irri.org) (remove (at) by @ before mailing)
 * [Connect on LinkedIn](https://www.linkedin.com/in/bertlenaerts) 
 
