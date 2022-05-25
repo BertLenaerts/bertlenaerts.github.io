@@ -30,3 +30,26 @@ However, flying that cheap comes at a cost. If all the airlines were combined in
 
 Last but not least, going abroad also means meeting new people, experiencing different cultures, and representing your own country as well. I am looking forward to sharing all of this with you in the coming months. Welcome to MIT Monday!
 
+<h3>2. To profit or not to profit (Nov 12, 2018)</h3>
+
+<h4>Should I fly?</h4>
+
+In my previous blog, I announced that I am going to spend a semester working at the Laboratory for Aviation and the Environment, which is part of the Massachusetts Institute of Technology's (MIT). There, I will use my time and resources to investigate the economic impact of aviation. That all sounds nice, but why would someone need to travel across the Atlantic to do just that? Kind of hypocritical given the fact that previously I was talking about the booming numbers of passengers and the impact this has on our environment. Let's back up a little to put things in perspective.
+
+<h4>Fostering economic growth</h4>
+
+The first question we must ask ourselves is the following: given the steep rise in airborne transportation, is aviation a profitable business? Not necessarily. A little under two decades ago, Belgium witnessed the loss of its crumbling flag carrier with the bankruptcy of the Belgian national airline Sabena. November 2001 marked one of the biggest economic failures in history.
+
+![](/images/2_MIT_MONDAY.jpg)
+
+Yet despite the lurking financial problems, the debate about whether the Belgian government should invest continued until the very end. In fact, before the closure, the government had already invested several billion into the company. Similar stories can be told about Air France, before its merger with KLM, and Alitalia. So why do governments keep investing in unprofitable enterprises?
+
+A much-heard argument — and for policymakers, perhaps the most important — is that air transport creates employment and fosters economic growth. Keeping employment up is certainly a strong political motive. For example, the bankruptcy of Sabena left thousands of people unemployed overnight. Proponents of government intervention also feared that economically unviable connections would not survive in the market, thereby losing their catalytic effect on the wider economy.
+
+But is this argument really justified? To which extent do more or better air services lead to more economic growth? Or does more economic growth rather lead to more or better air services? To date, it is unclear whether increased air accessibility has a positive impact on the wider economy in general, as, though often studied both qualitative and quantitatively, no unambiguous answer has yet emerged from the literature.
+
+<h4>Doing things differently</h4>
+
+In my research, I want to do things a bit differently. Unlike previous studies, I do not look at traffic volumes. Instead, I use a connectivity metric that takes into account both the quality of the connection (using one or two connecting flights) and the economic size of the destination. And this is where MIT comes in, as they have the data and computer power to calculate such a metric.
+
+Secondly, we do not focus on large cities (who have an airport) only. I  include smaller regions as well by integrating the distance between a centre of population and all available airports, in my calculations. This approach not only looks at a more realistic sample of regions, but it also reflects the travelling distance to the airport. After all, people—with the possible exception of Tom Hanks' character Viktor Navorski—do not live in airports! 
