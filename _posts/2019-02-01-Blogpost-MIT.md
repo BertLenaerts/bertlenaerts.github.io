@@ -98,12 +98,13 @@ But mind you, not everything is so accessible in Boston as is the case in Belgiu
 
 Moving on to my workplace, the Massachusetts Institute of Technology (MIT) is, without a doubt, one of the most famous universities in the world. In recent years, it has managed to remain within the top 5 of various world university rankings. Since its foundation, there have been 27 Noble Prize winners and 93 laureates across its alumni. I am thus very honored to be able to study here.
 
-FOTO2
+![](/images/4_MIT_MONDAY_b.jpg)
+
 But MIT's success also has a shadow side. Studying at MIT does come at a price, literally. Even with financial support from the university, annual fees can still total up to about 25,000 dollars. Without financial support, that figure can easily double; taking living expenses into account, a full year could be expensive as 75,000 dollars! No wonder Americans think European education is free, given our Belgian yearly fee is approximately 1,000 dollar.
 
 Also, MIT is notorious for having a higher-than-average suicide rate. Every year a number of students take their own life, a painful and concerning statistic. In its defense, MIT tries very hard to improve mental health, by providing counseling programs and ensuring that leaflets with information for reaching out for help can be found everywhere (even on the toilet).
 
-FOTO3
+![](/images/4_MIT_MONDAY_c.jpg)
 
 So what is daily life on campus truly like? MIT is smaller than you would expect with just over 11,000 students, I included, yet its campus is pretty impressive though, with a combination of classical and more experimental types of architecture. I even got lost several times during my first weeks.
 
