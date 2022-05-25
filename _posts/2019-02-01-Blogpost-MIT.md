@@ -54,7 +54,7 @@ In my research, I want to do things a bit differently. Unlike previous studies, 
 
 Secondly, we do not focus on large cities (who have an airport) only. I  include smaller regions as well by integrating the distance between a centre of population and all available airports, in my calculations. This approach not only looks at a more realistic sample of regions, but it also reflects the travelling distance to the airport. After all, people—with the possible exception of Tom Hanks' character Viktor Navorski—do not live in airports! 
 
-<h5>3. Show me the money (Dec 10, 2018)</h5>
+<h3>3. Show me the money (Dec 10, 2018)</h3>
 
 <h4>The Fulbright exchange program</h4>
 
@@ -78,7 +78,7 @@ And then came the worst part of the whole selection procedure: the period in whi
 
 When selected, Fulbright grantees are appointed a scholarship. In addition to this, the Fulbright program supports its scholars by organizing welcome receptions, pre-departure orientation sessions, cultural events, and much more. Thanks to the amazing Fulbright community I got invited to a real American Thanksgiving dinner! Fulbright also awards a monthly stipend to cover tuition, living costs, etc.; as well as sickness and accident insurance, which comes in handy as cities as Boston and New York can be terribly expensive to live in, but more about that in my next blog...
 
-<54>Life in the city of Boston (Jan 14, 2019)</h5>
+<h3>4. Life in the city of Boston (Jan 14, 2019)</h3>
 
 A happy 2019 to all of you! The new year has arrived and found me preparing for my last weeks here in the US. In this blog, I will tell you a bit more about MIT and the city it is located in: Cambridge in Greater Boston.
 
@@ -109,3 +109,30 @@ Also, MIT is notorious for having a higher-than-average suicide rate. Every year
 So what is daily life on campus truly like? MIT is smaller than you would expect with just over 11,000 students, I included, yet its campus is pretty impressive though, with a combination of classical and more experimental types of architecture. I even got lost several times during my first weeks.
 
 All year long, an endless number of lectures, lunches, seminars and other events are organized all over campus, creating a vibrant atmosphere. There is even an app that keeps track of those that offer free food. MIT also has over 500 recognized student activity groups, so there is always something to see or do. And last but not least, the MIT campus is home not just to students but to a surprisingly large amount of squirrels as well. 
+
+<h3>5. There and back again (Feb 04, 2019)</h3>
+
+<h4>Greeted by snow</h4>
+
+It seems like I came back from the US just in time to escape the polar vortex only to be greeted by the first Belgian snow. As I am residing in a landscape covered by a white blanket my thoughts wander back to the experiences from my stay in the US.
+
+I definitely learned a lot. Research wise, I discovered some interesting (yet still preliminary) results. As I mentioned earlier (blog 1 and 2), my research looks into the economic impact of aviation. According to my work at MIT, aviation has a positive impact on employment in the financial sector. However, space matters! Only regions close to airports benefit, while regions further away from airports face negative impacts, possible due to companies moving away (to be closer to airports). A similar effect seems to be present for economic density: closeness is beneficial while more remote regions suffer. 
+
+Also, living and working in the US has been a wonderful experience. I think we all have our own impressions of typical American life, handed down from popular culture (a strong sign of the US's so-called soft power). I have to admit, some of the stereotypes are true, but, in retrospect, I adjusted to Boston almost instantly. All in all, the city has both an American and European feel, and is certainly worth a visit, let alone a research stay!
+
+<h4>Working at MIT</h4>
+
+To me, however, the most interesting experience was staying at MIT. MIT is a world-renowned institute and my chance to have a look behind the scenes proved to be very insightful. One question I have asked myself often is: What are the reasons behind MIT's apparent success as a research centre? Was I able to crack the
+ code and figure out the magic recipe to MIT's success? No, but I have gained some insights that I would like to share with all of you.
+
+One of MIT's key assets is its tremendous level of ambition. It attracts the brightest minds from all over the world of who are all set on producing first-class research, creating kind of a self-reinforcing cycle. On top of that, MIT has a very strong focus on innovation and novelty. Every research proposal faces the inevitable "so what?" question. The golden rule is: only research that broadens the scientific horizon, and that per definition has never been done before, gets funded at MIT. Also, research projects and researchers at MIT are extremely specialized. My lab, for example, was very interdisciplinary, but fostering discussions outside someone's area of expertise often proved difficult. Lastly, MIT tries to fully embrace software and technology—not that surprising given its name and focus on engineering.
+
+<h4>I'm a legal alien</h4>
+
+So, I clearly gained a lot of insights from my American adventure. I want to finish, however, by giving some Belgian perspective on life in the US. Belgians are often characterised as modest, too modest perhaps given American standards. I agree that, while Belgium might be small, there is certainly much to be proud of and we should highlight our successes more. What I have learned over the past four months though is that focusing too much on success can lead to dishonesty. After all, many successes come at a cost, and I haven't always found the willingness to acknowledge this in the US.
+
+![](/images/5_MIT_MONDAY.jpg)
+
+To give a few examples: Boston is a beautiful and prosperous city with clean and lively streets (I never felt unsafe), but at the same time, real estate prices are so high (more than twice the amount of Brussels) that they are pushing poor people out of the city. Similarly, MIT is a very high-ranking university but this comes at a cost, as I explained in my previous blog (blog 4). The US economy was recently lauded for its strong economic growth, especially compared to the EU. However, what is often forgotten in this discussion is that inequality in the US is much large (and is still increasing) compared to the EU. In brief, Belgians should certainly consider tempering their modesty but there is definitely no need for removing it altogether.
+
+So what does the future hold? As a next step, I plan to refine my analysis further and discuss the implications of my results with fellow aviation economists. In the future, I hope to take a different perspective by studying the environmental instead of economic impacts of aviation. Combined with my current research, these results will hopefully allow for a more comprehensive assessment of aviation in the 21th century, which perhaps might lead to a new blog series...
