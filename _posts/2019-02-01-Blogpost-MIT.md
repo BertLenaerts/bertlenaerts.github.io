@@ -78,3 +78,33 @@ And then came the worst part of the whole selection procedure: the period in whi
 
 When selected, Fulbright grantees are appointed a scholarship. In addition to this, the Fulbright program supports its scholars by organizing welcome receptions, pre-departure orientation sessions, cultural events, and much more. Thanks to the amazing Fulbright community I got invited to a real American Thanksgiving dinner! Fulbright also awards a monthly stipend to cover tuition, living costs, etc.; as well as sickness and accident insurance, which comes in handy as cities as Boston and New York can be terribly expensive to live in, but more about that in my next blog...
 
+<54>Life in the city of Boston (Jan 14, 2019)</h5>
+
+A happy 2019 to all of you! The new year has arrived and found me preparing for my last weeks here in the US. In this blog, I will tell you a bit more about MIT and the city it is located in: Cambridge in Greater Boston.
+
+<h4>The city of Boston</h4>
+
+Greater Boston is one of the oldest cities in the United States, founded by British settlers. To this day, it  is seen as one of the most European cities in America. Boston is home to some beautiful architecture,  colorful cafes and excellent restaurants.
+
+Contrary to most American cities, Boston has a fair share of bicyclists and is often referred to as 'the walking city'. Despite its European feel, the city is unmistakably American. Wide lanes cross most of the city and are lined with colorful wooden houses. And also the American lifestyle is certainly noticeable, as almost everything does come in large quantities.
+
+![](/images/4_MIT_MONDAY.jpg)
+
+Boston is also famous for its seafood and there are some fine pubs with excellent beers as well; at the same time, there also seems to be a donut shop on every corner of downtown Boston. Shops are open much longer than is the case in Belgium, even on Sundays, which is a huge advantage. Personally, I always go grocery shopping in a supermarket that is open 24/7!
+
+But mind you, not everything is so accessible in Boston as is the case in Belgium. Generally, alcohol can only be purchased from special liquor shops and both bars and liquor shops are very strict about the age limit, which is 21 in Massachusetts.
+
+<h4>Life at MIT</h4>
+
+Moving on to my workplace, the Massachusetts Institute of Technology (MIT) is, without a doubt, one of the most famous universities in the world. In recent years, it has managed to remain within the top 5 of various world university rankings. Since its foundation, there have been 27 Noble Prize winners and 93 laureates across its alumni. I am thus very honored to be able to study here.
+
+FOTO2
+But MIT's success also has a shadow side. Studying at MIT does come at a price, literally. Even with financial support from the university, annual fees can still total up to about 25,000 dollars. Without financial support, that figure can easily double; taking living expenses into account, a full year could be expensive as 75,000 dollars! No wonder Americans think European education is free, given our Belgian yearly fee is approximately 1,000 dollar.
+
+Also, MIT is notorious for having a higher-than-average suicide rate. Every year a number of students take their own life, a painful and concerning statistic. In its defense, MIT tries very hard to improve mental health, by providing counseling programs and ensuring that leaflets with information for reaching out for help can be found everywhere (even on the toilet).
+
+FOTO3
+
+So what is daily life on campus truly like? MIT is smaller than you would expect with just over 11,000 students, I included, yet its campus is pretty impressive though, with a combination of classical and more experimental types of architecture. I even got lost several times during my first weeks.
+
+All year long, an endless number of lectures, lunches, seminars and other events are organized all over campus, creating a vibrant atmosphere. There is even an app that keeps track of those that offer free food. MIT also has over 500 recognized student activity groups, so there is always something to see or do. And last but not least, the MIT campus is home not just to students but to a surprisingly large amount of squirrels as well. 
