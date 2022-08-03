@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reviving correlation
+title: Cubism meets machine learning
 ---
 
 |      Method      |  RMSE | CV-RMSE |  MAE  | CV-MAE | R-squared | CV-R-squared |
