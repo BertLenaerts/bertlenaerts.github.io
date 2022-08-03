@@ -1,3 +1,7 @@
+---
+layout: post
+title: Reviving correlation
+---
 
 |      Method      |  RMSE | CV-RMSE |  MAE  | CV-MAE | R-squared | CV-R-squared |
 |:----------------:|:-----:|:-------:|:-----:|:------:|:---------:|:------------:|
