@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "Welcome"
 ---
 
 I am a Postdoctoral Fellow at the International Rice Research Institute (IRRI), part of the CGIAR System Organization, a global research partnership for a food secure future.
