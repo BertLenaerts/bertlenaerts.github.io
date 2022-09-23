@@ -1,13 +1,12 @@
 ---
 layout: page
-title: ""
+title: "References"
 permalink: /research/
 ---
-### References
-##### Book chapters
+### Book chapters
 Lenaerts, B., Malina, R., and Allroggen, F. 2020. Measuring the quality of air transport networks, pp. 6–30, in Graham, A., Adler, N., Niemeier, H.-M., Betancor, O., Antunes, A. P., Bilotkach, V., Calderón, E. J., and Martini, G. (eds.), Air Transport and Regional Development Policies, New York, Routledge [(link)](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003092070-2/measuring-quality-air-transport-networks-bert-lenaerts-robert-malina-florian-allroggen)
 
-##### Peer-reviewed journal articles
+### Peer-reviewed journal articles
 Collard, B. C. Y., Beredo, J. C., Lenaerts, B., Mendoza, R., Santelices, R., Lopena, V., Verdeprado, H., Raghavan, C., Gregorio, G. B., Vial, L., Demont, M., Biswas, P. S., Iftekharuddaula, K. M., Rahman, M. A., et al. 2017. Revisiting rice breeding methods – evaluating the use of rapid generation advance (RGA) for routine rice breeding, Plant Production Science, vol. 20, no. 4, 337–52 [doi: 10.1080/00343404.2022.2059069](https://doi.org/10.1080/1343943X.2017.1391705)
 
 Lenaerts, B., Allroggen, F., and Malina, R. 2021. The economic impact of aviation: A review on the role of market access, Journal of Air Transport Management, vol. 91, 102000 [doi: 10.1016/j.jairtraman.2020.102000](https://doi.org/10.1016/j.jairtraman.2020.102000)
@@ -26,7 +25,7 @@ Lenaerts, B., de Mey, Y., and Demont, M. 2018b. Global impact of accelerated pla
 
 Lenaerts, B., de Mey, Y., and Demont, M. 2022d. Revisiting multi-stage models for upstream technology adoption: Evidence from rapid generation advance in rice breeding, Journal of Agricultural Economics, vol. 73, no. 1, 277–300 [doi: 10.1111/1477-9552.12450](https://doi.org/10.1111/1477-9552.12450)
 
-##### Working papers
+### Working papers
 Lenaerts, B. 2022. The Distance Effect on Bilateral Trade Revisited, Journal of Applied Econometrics (under review)
 
 Lenaerts, B., Allroggen, F., and Malina, R. 2022a. Onestop connectivity in air transport networks: a comparative analysis, Working Paper
