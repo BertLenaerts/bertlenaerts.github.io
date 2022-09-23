@@ -1,8 +1,10 @@
 ---
 layout: page
-title: "Contact me"
+title: ""
 permalink: /contact/
 ---
+
+### Contact me
 
 * Mail: b.lenaerts [at] irri.org
 * [Connect on LinkedIn](https://www.linkedin.com/in/bertlenaerts) 
