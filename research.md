@@ -34,3 +34,5 @@ Lenaerts, B., Allroggen, F., and Malina, R. 2022a. Onestop connectivity in air t
 Lenaerts, B., Allroggen, F., and Malina, R. 2022b. Visualising air transport connectivity flows: evidence from Africa, Working Paper
 
 Lenaerts, B. and Bruns, S. B. 2022. Robust determinants of growth when effects are small: Model uncertainty, statistical power and p-hacking, Working Paper
+
+Lenaerts, B. and Malina, R. 2022. Air connectivity and regional employment in Africa, Working Paper
