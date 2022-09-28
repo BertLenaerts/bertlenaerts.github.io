@@ -5,12 +5,12 @@ permalink: /research/
 ---
 
 ### Book chapters
-Lenaerts, B., Malina, R., and Allroggen, F. 2020. Measuring the quality of air transport networks, pp. 6–30, in Graham, A., Adler, N., Niemeier, H.-M., Betancor, O., Antunes, A. P., Bilotkach, V., Calderón, E. J., and Martini, G. (eds.), Air Transport and Regional Development Policies, New York, Routledge [(link)](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003092070-2/measuring-quality-air-transport-networks-bert-lenaerts-robert-malina-florian-allroggen)
+Lenaerts, B., Malina, R., and Allroggen, F. 2020. Measuring the quality of air transport networks, pp. 6–30, in Graham, A., Adler, N., Niemeier, H.-M., Betancor, O., Antunes, A. P., Bilotkach, V., Calderón, E. J., and Martini, G. (eds.), Air Transport and Regional Development Policies, New York, Routledge [(link)](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003092070-2/measuring-quality-air-transport-networks-bert-lenaerts-robert-malina-florian-allroggen) 
 <br clear="left"/>
 
 ### Peer-reviewed journal articles
-<img align="left" src="/files/collard2017.gif" width="120"> Collard, B. C. Y., Beredo, J. C., Lenaerts, B., Mendoza, R., Santelices, R., Lopena, V., Verdeprado, H., Raghavan, C., Gregorio, G. B., Vial, L., Demont, M., Biswas, P. S., Iftekharuddaula, K. M., Rahman, M. A., et al. 2017. Revisiting rice breeding methods – evaluating the use of rapid generation advance (RGA) for routine rice breeding, Plant Production Science, vol. 20, no. 4, 337–52 [doi: 10.1080/00343404.2022.2059069](https://doi.org/10.1080/1343943X.2017.1391705)
-<br clear="left"/>
+<img align="left" src="/files/collard2017.gif" width="120"> | Collard, B. C. Y., Beredo, J. C., Lenaerts, B., Mendoza, R., Santelices, R., Lopena, V., Verdeprado, H., Raghavan, C., Gregorio, G. B., Vial, L., Demont, M., Biswas, P. S., Iftekharuddaula, K. M., Rahman, M. A., et al. 2017. Revisiting rice breeding methods – evaluating the use of rapid generation advance (RGA) for routine rice breeding, Plant Production Science, vol. 20, no. 4, 337–52 [doi: 10.1080/00343404.2022.2059069](https://doi.org/10.1080/1343943X.2017.1391705) |
+a|b|
 
 <img align="left" src="/files/lenaerts2021.jpg" width="100"> Lenaerts, B., Allroggen, F., and Malina, R. 2021. The economic impact of aviation: A review on the role of market access, Journal of Air Transport Management, vol. 91, 102000 [doi: 10.1016/j.jairtraman.2020.102000](https://doi.org/10.1016/j.jairtraman.2020.102000)
 <br clear="left"/>
