@@ -6,7 +6,6 @@ permalink: /research/
 
 ### Book chapters
 <img src="/images/Critical_econometrics.png" alt="drawing" width="50"/>|Lenaerts, B., Malina, R., and Allroggen, F. 2020. Measuring the quality of air transport networks, pp. 6–30, in Graham, A., Adler, N., Niemeier, H.-M., Betancor, O., Antunes, A. P., Bilotkach, V., Calderón, E. J., and Martini, G. (eds.), Air Transport and Regional Development Policies, New York, Routledge [(link)](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003092070-2/measuring-quality-air-transport-networks-bert-lenaerts-robert-malina-florian-allroggen)
-
 aa|bb
 cc|dd
 
