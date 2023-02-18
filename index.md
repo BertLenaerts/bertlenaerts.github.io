@@ -7,6 +7,4 @@ I am a Postdoctoral Fellow at the International Rice Research Institute (IRRI), 
 
 My main research interests include the economics of breeding, food economics, economic geography and sensitivity analysis & replication in econometrics.
 
-<a id="raw-url" href="https://1drv.ms/b/s!ArG7vhv8FfTth4NlJ3B0WbGm2_B6Fg?e=ppveio">Download my CV</a>
-
 <a id="raw-url" href="https://1drv.ms/b/s!ArG7vhv8FfTth4NlJ3B0WbGm2_B6Fg?e=ppveio" target="_blank" rel="noreferrer noopener">Download my CV</a>
