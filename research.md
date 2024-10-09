@@ -29,8 +29,10 @@ Lenaerts, B., de Mey, Y., and Demont, M. 2018b. Global impact of accelerated pla
 
 Lenaerts, B., de Mey, Y., and Demont, M. 2022d. Revisiting multi-stage models for upstream technology adoption: Evidence from rapid generation advance in rice breeding, Journal of Agricultural Economics, vol. 73, no. 1, 277–300 [doi: 10.1111/1477-9552.12450](https://doi.org/10.1111/1477-9552.12450) 
 
-### Working papers
-Lenaerts, B. 2022. The Distance Effect on Bilateral Trade Revisited, Journal of Applied Econometrics (under review)
+### Working papers and preprints
+Lenaerts, B. 2024. Quantifying the health impact of crop breeding: Revisiting the Disability-Adjusted Life Years Approach, MedRxiv preprint [doi: 10.1101/2024.08.26.24312574](https://doi.org/10.1101/2024.08.26.24312574) 
+
+Lenaerts, B. 2022. The Distance Effect on Bilateral Trade Revisited
 
 Lenaerts, B., Allroggen, F., and Malina, R. 2022a. Onestop connectivity in air transport networks: a comparative analysis, Working Paper
 
