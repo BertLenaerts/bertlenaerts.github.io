@@ -10,4 +10,4 @@ Utilizing the power of Sankey diagrams, we mapped the intricate flow of aviation
 Sankey diagrams emerge as an exceptionally effective tool in visualizing and comprehending the complexities of air transport connectivity. As the airline industry moves forward, these insights are valuable for policymakers, airlines, and academics, providing guidance for fostering a more connected and accessible world.
 
 ![](/images/Aviation sankey.png)
-Sankey diagram linking origin airports in Morocco, Sudan and South Africa to hub airports and final destination regions (AFR: Africa. CSC: Central America, South America, and the Caribbean. EACA: East Asia and Central Asia. EU: Europe. MEA: Middle East. NAX: Northern America. OCE: Oceania. SSEA: South Asia and South-East Asia.)
+Sankey diagram linking origin airports in Morocco, Sudan and South Africa to hub airports and final destination regions (MAR: Morocco. SDN: Sudan. ZAF: South Africa. AFR: Africa. CSC: Central America, South America, and the Caribbean. EACA: East Asia and Central Asia. EU: Europe. MEA: Middle East. NAX: Northern America. OCE: Oceania. SSEA: South Asia and South-East Asia.)
