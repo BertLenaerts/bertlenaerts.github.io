@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploring the Skies: A New Perspective on Air Transport Connectivity in Africa
+title: Exploring the Skies - A New Perspective on Air Transport Connectivity in Africa
 ---
 
 The air transport industry is crucial for global connectivity, yet its complexities are often underexplored, particularly regarding Africa. 
